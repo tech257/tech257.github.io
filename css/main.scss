@@ -6,6 +6,7 @@
 
 $background-color: #766330;
 $highlight-color: #1EB53A;
+$error-color: #CE1126;
 $body-text-color: #FFFFFF;
 $body-text-size: 20px;
 $link-color: darken($highlight-color,40%);
@@ -129,10 +130,15 @@ section, form, footer {
 /* Utility */
 .flash-message {
   @include border-radius(5px);
-  background-color:$highlight-color;
   display: none;
   margin:2em 0;
   padding:1em;
+  .success {
+    background-color:$highlight-color;
+  }
+  .error {
+    background-color:$error-color;
+  }
 }
 
 /** that's all, folks **/
