@@ -1,0 +1,7 @@
+# Site settings
+title: TECH257
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://tech257.github.io" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
