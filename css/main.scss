@@ -133,12 +133,12 @@ section, form, footer {
   display: none;
   margin:2em 0;
   padding:1em;
-  .success {
-    background-color:$highlight-color;
-  }
-  .error {
-    background-color:$error-color;
-  }
+    &.success {
+      background-color:$highlight-color;
+    }
+    &.error {
+      background-color:$error-color;
+    }
 }
 
 /** that's all, folks **/
