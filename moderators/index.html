@@ -5,8 +5,8 @@ layout: default
 <h2>The current moderators are:</h2>
 <ul>
   {% for admin in site.data.admins %}
-  {% if admin.twitter %}
-  <li><a href="https://twitter.com/{{ admin.twitter }}">{{ admin.name }}</a></li>
+  {% if admin.linkedin %}
+  <li><a href="https://linkedin.com/in/{{ admin.linkedin }}">{{ admin.name }}</a></li>
   {% else %}
   <li>{{ admin.name }}</li>
   {% endif %}
